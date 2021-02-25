@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46765768fd64ae917db830ad4301ac9c",
+    "revision": "4640befbd3c205c5095356559c9e5597",
     "url": "/SiddiquiAmin/index.html"
   },
   {
-    "revision": "d86f6b7c838bcae2979f",
-    "url": "/SiddiquiAmin/static/css/2.8579bd47.chunk.css"
+    "revision": "510c843a384557617686",
+    "url": "/SiddiquiAmin/static/css/2.500cb03f.chunk.css"
   },
   {
-    "revision": "6d2ba2cf9ff7cb53462b",
-    "url": "/SiddiquiAmin/static/css/main.65a7df24.chunk.css"
+    "revision": "53d0f3fd08237c821b43",
+    "url": "/SiddiquiAmin/static/css/main.1dbd611a.chunk.css"
   },
   {
-    "revision": "d86f6b7c838bcae2979f",
-    "url": "/SiddiquiAmin/static/js/2.77fb6e6c.chunk.js"
+    "revision": "510c843a384557617686",
+    "url": "/SiddiquiAmin/static/js/2.02976b85.chunk.js"
   },
   {
-    "revision": "6ea103ef71c6b9e0597abd933f306853",
-    "url": "/SiddiquiAmin/static/js/2.77fb6e6c.chunk.js.LICENSE.txt"
+    "revision": "b45be4dfcf889ea1b7385f58d15dba2d",
+    "url": "/SiddiquiAmin/static/js/2.02976b85.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6d2ba2cf9ff7cb53462b",
-    "url": "/SiddiquiAmin/static/js/main.6bf74b3f.chunk.js"
+    "revision": "53d0f3fd08237c821b43",
+    "url": "/SiddiquiAmin/static/js/main.865aa885.chunk.js"
   },
   {
     "revision": "013ae969b3248f73c278",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "522e1210ff6554d4f8d0f3adf324916c",
     "url": "/SiddiquiAmin/static/media/four.522e1210.png"
-  },
-  {
-    "revision": "fc5c08e2f211ed92c2b8183fec903544",
-    "url": "/SiddiquiAmin/static/media/freepic.fc5c08e2.jpg"
   },
   {
     "revision": "8354c47c324cddf656b7e584255f21b4",
