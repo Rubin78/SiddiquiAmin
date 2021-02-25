@@ -58,7 +58,7 @@ height: auto;
 #container2{
 
   
-  width: auto;
+  width: calc(100vw -12px);
 
   overflow-x: hidden;
   overflow-y: auto;

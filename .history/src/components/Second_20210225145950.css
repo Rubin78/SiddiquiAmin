@@ -1,9 +1,38 @@
-/* 
 
 
+.section1{
+  /* background-color: red; */
+  height: 100vh;
+position: relative;
+   background-size: cover;
+    background-repeat: "no-repeat";
+    width: 100%;
+
+  
+}
+
+.carousel-indicators li { visibility: hidden; }
 
 
+img.carouselimage {
+    border-radius: 15px;
 
+  box-shadow:  1px 1px 5px 8px #f7f7f7;
+-moz-box-shadow: 10px 10px 60px 0px #f7f7f7;
+width: 50%;
+display: block;
+height: auto;
+
+}
+.Caritem.active.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+
+  padding: 10px;
+    
+}
 
 .containerBody2{
 
@@ -19,15 +48,21 @@
 
 }
 
+.container2insider{
+  width: 100%;
+  padding: 2px;
+}
+
+
 
 #container2{
 
   
-  width: calc(100vw -12px);
+  /* width: calc(100vw -12px);
 
   overflow-x: hidden;
   overflow-y: auto;
-  
+   */
 position: absolute;
   background-position: center;
   background-size: cover;
@@ -45,14 +80,58 @@ flex-grow: 1 1 0 ;
 
   height: 50px;
 }
-.navbar{
+/* .navbar{
 
   display: flex;
   flex: 1;
-  position: sticky;
+  position: absolute; */
   /* flex-flow:wrap ; */
-flex-wrap: wrap;
+/* flex-wrap: wrap;
+} */
+
+
+  div#Top-cards {
+      height: 385px;
+      margin:32px;
+  }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2.5rem;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+
 }
+/* 
+.navbar {
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.7rem 2rem;
+      overflow: hidden;
+      z-index: 1;
+      width: 100%; 
+      margin: auto;
+      top: 0;
+      border-bottom: solid 1px var(--primary-color);
+      opacity: 0.9;
+
+      position: fixed;
+      top: 0;
+ */
+      /* box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25); */
+      /* box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8),
+        -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+      box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white,
+        12px 0 15px -4px rgba(31, 73, 125, 0.8),
+        -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+    } */
+ */
+
 
 .particle{
 
@@ -109,13 +188,18 @@ color: white;
 
 }
 
-div#section1 {
-    /* background-position: 50%; */
-    background-size: cover;
-    background-repeat: "no-repeat";
-    width: 100%;
-   
+.carousel-main{
+
+
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            
 }
+
 .fonttextdesign{
 
   color: white;
@@ -142,27 +226,92 @@ div#section1 {
 
 
 
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   color: white;
 }
 
-.container3{
+.section3{
 
-  height: 92vh;
-  width: calc(100vw -12px);
-overflow-x: hidden;
-overflow-y: auto;
- 
-  /* position: absolute; */
+  height: 100vh;
+    width: calc(100vw -12px);
+    overflow-x: hidden;
+
+/*  
+  position: absolute;
   background-position: center;
   background-size: cover;
-  background-repeat: 'no-repeat';
+  background-repeat: 'no-repeat'; */
 position: relative;
 background-color: black;
 
+}
+
+.section4{
+
+
+  height: 100vh;
+    width: calc(100vw -12px);
+    overflow-x: hidden;
+    position: relative;
+background-color: black;
+
+
+}
+.space{
+
+  height: 20vh;
+  background-color: black;
+}
+
+.section5{
+
+
+  height: 120vh;
+    width: calc(100vw -12px);
+    overflow-x: hidden;
+    position: relative;
+background-color: black;
+color: white;
+
+
+}
+
+
+.footertext{
+
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section6{
+
+
+  height: 35vh;
+    width: calc(100vw -12px);
+    overflow-x: hidden;
+    position: relative;
+background-color: black;
+color: white;
+
+
+}
+.carouselheight{
+
+  height: 800px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section4{
+
+    height: 100vh;
+position: relative;
+background-color: black;
 }
 
 .container4{
@@ -200,6 +349,17 @@ align-items: center; */
 
 }
 
+.navbar{
+
+  /* background-color: red; */
+  padding: 8px 30px;
+
+  font-size: 15px;
+  font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
+  
+  /* letter-spacing: .08em; */
+  
+}
 
 .container6{
 
@@ -256,6 +416,7 @@ color: white;
 .container2insideitem{
 
 height: 100px;
+/* background-color: green; */
 display: flex;
 align-items: center;
 }
@@ -307,7 +468,11 @@ flex: 1;
 justify-content: center;
 align-items: center;
 height: 100vh;
+background-color: blue;
 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+      "homepage": "https://Rubin78.github.io/SiddiquiAmin/",
 
 }
 
@@ -352,33 +517,156 @@ height: 100vh;
 
   font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
   letter-spacing: .10em;
-  height: 150px;
+  height: 200px;
+  
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
   color: white;
+  /* background-color: red; */
 
 
 
 }
 
+.carouseltext{
+font-size: 25px;
+  color: #000000;
+  text-shadow:1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey;
+
+}
+
+
+.col-md-8.col-sm-12.neonn:hover{ 
+  color: #000; 
+  background: #ffffff; 
+  box-shadow: 0 0 50px #ffffff; 
+  padding:150px;
+  border-color: transparent;
+  border-radius: 50%;
+}  
+
+.experincedetailscenter:hover {
+    color: #000;
+    background: #ffffff;
+    box-shadow: 0 0 50px #ffffff;
+    padding: 25px;
+    border-color: transparent;
+    border-radius: 2%;
+}
+
+.techskillsdescription{
+
+  font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
+  letter-spacing: 0.15rem;
+  line-height: 2.5rem;
+  /* background-color: green; */
+  height: 88%;
+  font-size: 22px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: white;
+  /* background-color: red; */
+
+
+
+}
+
+.neon{
+  font-size: 2.8  rem;  
+  font-weight: 200;
+  font-style: italic;
+  color: #fff;
+  /* padding: 4rem 6rem 5.5rem; */
+  /* border: 0.3rem solid transparent; */
+  /* border-radius: 1rem; */
+  text-transform: uppercase;
+  animation: flicker 1.5s infinite alternate; 
+}
+
+.neon::-moz-selection {
+  background-color: var(--neon-border-color);
+  color: var(--neon-text-color);
+}
+
+
+.neon::selection {
+  background-color: var(--neon-border-color);
+  color: var(--neon-text-color);
+}
+
+.neon:focus {
+  outline: none;
+}
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
+:root {
+  /* Base font size */
+  /* font-size: 10px;    */
+  
+  /* Set neon color */
+  --neon-text-color: #08f;
+  --neon-border-color: transparent
+}
+
+/* Animate neon flicker */
+@keyframes flicker {
+    
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      
+        text-shadow:0 0 8px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+/*         
+        box-shadow:
+            0 0 .5rem #fff,
+            inset 0 0 .5rem #fff,
+            0 0 2rem var(--neon-border-color),
+            inset 0 0 2rem var(--neon-border-color),
+            0 0 4rem var(--neon-border-color),
+            inset 0 0 4rem var(--neon-border-color);         */
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+        box-shadow: none;
+    }    
+}
 .emptycards{
 background-color: black;
 
+
 }
 
+.empty{
+
+  padding: 20;
+}
 .Aboutme{
 
 
   font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
   letter-spacing: .10em;
   text-align: center;
+  font-size: 50px;
   
 }
 
 
 
-
+.experincedetailscenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: red; */
+  margin: 12px;
+}
 
 
 
@@ -425,12 +713,28 @@ background-color:#8EB897 ;
 
   height: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
  
 }
 
+p.experiencesetailinside{
+  /* font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
+  letter-spacing: 0.05em; */
+  font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
+  letter-spacing: 0.15rem;
+  line-height: 1.6rem;
+    display: list-item;          /* This has to be "list-item"                                               */
+    list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position: outside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
 
+text-align: left;
+padding: 5px;
+
+
+
+}
 
 .expcard{
 
@@ -563,14 +867,15 @@ background-color:#78586F
 
 
 
-.DesignInnovation{
-  color:#ffffff;
-  font-Size:42px;
-  text-Align:center;
-  font-Family:Patua One;
-  font-Weight:bolder;
-  letter-spacing:.20em;
+.DesignInnovation {
+    color: #ffffff;
+    font-Size: 50px;
+    text-Align: center;
+    font-Family: ubuntu;
+    font-Weight: bolder;
+    letter-spacing: .18em;
 }
+
 
 .Photosize{
   height: 100%;
@@ -607,7 +912,7 @@ color: white;
 
   .top-text{
    display: flex;
-   height: 450px;
+   height: 520px;
    flex-direction: column;
    align-items: flex-start;
    justify-content: flex-end;
@@ -616,6 +921,7 @@ color: white;
   }
 
 /* 
+
   a.linkcolor{
       font-size: 14px;
   }
@@ -644,6 +950,7 @@ color: white;
 
 /* 
 @media only screen and (max-width: 320px) {
+
   .aboutmeheadertextheight{
       height: 30px;
       font-size: 14px;
@@ -652,14 +959,13 @@ color: white;
 } */
 
 
-/* Extra small devices (phones, 400px and down) */
-@media screen and (min-width: 550px) {
-  .example {background: red;}
+/* Extra small devices (phones, 400px and down) */ 
+ @media screen and (mix-width: 550px) {
 
   .linkcolor.mob-sizefont{
       font-size: 11px;
   }
-}
+} 
 
 
 /* Extra small devices (phones, 400px and down) */
@@ -671,11 +977,63 @@ color: white;
       
 
   }
+.techskillsdescription{
+  font-size: 17px;
+  height: unset;
+  padding: 20px;
+}
+
+.section3{
+  height: unset;
+
+}
+
+.w-50 {
+    width: 65% !important;
+}
 
   .DesignInnovation{
       font-size: 31px;
   }
 
+  div#container2 {
+    padding: 15px;
+}
+.emptytwo{
+  padding: 20px;
+  background-color: black;
+}
+.container2column{
+  height: unset;
+}
+.section5{
+  height: unset;
+}
+img.carouselimage {
+    border-radius: 15px;
+
+  box-shadow:  1px 1px 5px 8px #f7f7f7;
+-moz-box-shadow: 10px 10px 60px 0px #f7f7f7;
+width: 65%;
+display: block;
+height: auto;
+
+}
+
+.carouseltext {
+    font-size: 16px;
+    color: #000000;
+    text-shadow: 1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey;
+}
+.col-md-8.col-sm-12.neonn:hover{ 
+  color: #000; 
+  background: #ffffff; 
+  box-shadow: 0 0 50px #ffffff; 
+  padding:10px;
+  font-size: 17px;
+  border-color: transparent;
+  border-radius: 5%;
+}  
   .aboutmeheadertextheight{
       height: 50px;
       font-size: 16px;
@@ -683,12 +1041,12 @@ color: white;
   }
 
   h1.Aboutme.aos-init.aos-animate{
-      font-size: 30px;
+      font-size: 38px;
 
   }
   .container2column{
-      height: 55vh;   
-      /* background-color: green; */
+      /* height: 55vh;    */
+    
   }
   .photoheight{
       height: 370px;
@@ -703,7 +1061,7 @@ color: white;
   }
   .mydetailsstyle{
       line-height: 1.45;
-      font-size: 14px;
+      font-size: 16px;
   }
   .frontendfont{
       height: 65px;
@@ -711,15 +1069,38 @@ color: white;
   }
   .techicalskills{
       height: 60px;
+      
 
   }
+.top-text {
+    display: flex;
+    height: 520px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.techicalskillimage.aos-init.aos-animate {
+    height: 215px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
   .cardinside{
       height: 50px;
   }
   
+  /* .cardscenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
 
   div#Top-cards {
-      height: 210px;
+      height: 385px;
       margin:21px;
   }
   .Aboutme{
@@ -824,27 +1205,160 @@ and (max-device-width : 1347px)
 
 }
 
+/* <media queris ======767> */
 
 
 @media only screen   
-and (min-device-width : 576px)   
+and (min-device-width : 551px)   
 and (max-device-width : 767px)  
 
 {
+
+
+
+.DesignInnovation {
+    color: #ffffff;
+    font-Size: 40px;
+    text-Align: center;
+    font-Family: ubuntu;
+    font-Weight: bolder;
+    letter-spacing: .18em;
+}
+
+.container2column {
+    height: unset;
+    width: 100vw;
+    letter-spacing: .15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  
   .mydetailsstyle{
-    line-height: 1.2;
+    line-height: 1.9;
 
   }
 
+#container2{
+  padding: 20px;
+}
+.Container2frontend {
+    height: unset;
+    padding: 20px;
+}
 
+.emptytwo{
+  padding: 20px;
+  background-color: black;
+}
+
+
+.techskillsdescription {
+    font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
+    letter-spacing: 0.15rem;
+    line-height: 2.8rem;
+    /* background-color: green; */
+    height: 88%;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: red; */
+}
+
+
+img.carouselimage {
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 8px #f7f7f7;
+    -moz-box-shadow: 10px 10px 60px 0px #f7f7f7;
+    width: 68%;
+    display: block;
+    height: auto;
+}
+
+
+.carousel-main{
+
+
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            
+}
+
+.section4 {
+    height: 75vh;
+    position: relative;
+    background-color: black;
+}
+
+
+
+.section5 {
+    height: unset;
+    width: calc(100vw -12px);
+    overflow-x: hidden;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+.carouseltext {
+    font-size: 28px;
+    color: #000000;
+    text-shadow: 1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey;
+}
+
+
+
+
+
+
+
+
+/* <this above is my> */
   .hoverwidthcards{
     padding: 15px;
   }
 
+   .top-text {
+      display: flex;
+      height: 501px;
+      position: absolute;
+      left: unset;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
 }
 
+
+
+
+ @media only screen   
+  and (min-device-width : 768px)   
+  and (max-device-width : 800px)  
+  
+  {
+
+
+
+  }
+
+
+
+
+/* 
+and (min-device-width : 551px)    */
   @media only screen   
-  and (min-device-width : 551px)   
+  and (min-device-width : 768px)   
   and (max-device-width : 800px)  
   
   {
@@ -890,15 +1404,49 @@ and (max-device-width : 767px)
 
 
 
-
+/* 
 @media only screen   
-and (min-device-width : 800px)   
+and (min-device-width : 1200px)   
 and (max-device-width : 1500px)  
 
 {
 
   .DesignInnovation.aos-init.aos-animate {
-    font-size: 34px;
+    font-size: 32px;
+} */
+
+/* } */
+
+
+
+
+
+
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 920px)  
+
+{
+
+  .DesignInnovation.aos-init.aos-animate {
+    font-size: 24px;
+}
+.textheader1 {
+    color: white;
+    font-size: 16px;
+    font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
+    letter-spacing: .28em;
+}
+.textheader {
+    color: white;
+    font-size: 13px;
+    font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
+    letter-spacing: .28em;
+    padding: 11px;
+    display: flex;
+    /* justify-content: space-around; */
+    /* margin: 0; */
+    color: white;
 }
 
 }
@@ -910,7 +1458,7 @@ and (max-device-width : 1868px)
 {
 
   div#Top-cards {
-    height: 210px;
+    height: 385px;
 }
 }
 @media only screen   
@@ -973,17 +1521,14 @@ and (max-device-width : 1024px)
   
   .top-text{
       display: flex;
-      height: 480px;
+      /* height: 480px; */
       flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-end;
+      align-items: center;
+      justify-content:center;
       margin-bottom: 20px;
  
      }   
 
-     h1.Aboutme.aos-init.aos-animate{
-         font-size: 2em;
-     }
      .aboutmeheadertextheight{
          height: 80px;
      }
@@ -1000,10 +1545,80 @@ and (max-device-width : 1024px)
      }
      .container2insideitem{
          height: 40px;
+         /* background-color: red; */
      }
      h1.Aboutme.aos-init.aos-animate{
-         font-size: 1.5em;
+         font-size: 2.4em;
      }
+
+     .section3 {
+    height: unset;
+    width: calc(100vw -12px);
+    overflow-x: hidden;
+    position: relative;
+    background-color: black;
+}
+
+.section4 {
+    height: 80vh;
+    position: relative;
+    background-color: black;
+}
+.section5 {
+    height: unset;
+    width: calc(100vw -12px);
+    overflow-x: hidden;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+img.carouselimage {
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 8px #f7f7f7;
+    -moz-box-shadow: 10px 10px 60px 0px #f7f7f7;
+    width: 60%;
+    display: block;
+    height: auto;
+}
+
+
+p.experiencesetailinside {
+    font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
+    letter-spacing: 0.15rem;
+    line-height: 1.2;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: outside;
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+.container2column {
+    height: unset;
+    width: 100vw;
+    letter-spacing: .15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.experincedetailscenter:hover {
+    color: unset;
+    background: unset;
+    box-shadow:  unset;
+    padding: unset;
+    border-color: unset;
+    border-radius: unset;
+}
+
+
+     /* < remaininf         ============================> */
      .techicalskills{
          height: 60px;
      }    
@@ -1025,7 +1640,7 @@ and (max-device-width : 1024px)
          height: 50px;
      }
      div#Top-cards {
-         height: 210px;
+         height: 385px;
          margin: 30px;
      }
 
@@ -1088,6 +1703,44 @@ and (max-device-width : 1024px)
 
 
 
+@media only screen   
+and (min-device-width : 1025px)   
+and (max-device-width :1314px)  
+
+{
+
+
+  .section5 {
+    height: unset;
+    width: calc(100vw -12px);
+    overflow-x: hidden;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+
+.techskillsdescription {
+    font-family: "Gotham-Medium","Helvetica Neue","sans-serif";
+    letter-spacing: 0.15rem;
+    line-height: 2.5rem;
+    /* background-color: green; */
+    height: unset;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: red; */
+}
+
+
+
+.DesignInnovation.aos-init.aos-animate {
+    font-size: 36px;
+}
+}
+
 
 
 @media only screen   
@@ -1114,6 +1767,8 @@ and (max-width: 1366px)
   /* a.linkcolor {
       font-size: 14px;
   }
+
+
   h5.Aboutme {
       font-size: 12px;
   } */
@@ -1135,9 +1790,11 @@ and (max-width: 1366px)
     align-items: flex-start;
     justify-content: flex-end;
     margin-bottom: 20px;
+
    }    */
 
 /* 
+
   .DesignInnovation.aos-init.aos-animate{
       font-size: 35px;
   } */
@@ -1161,11 +1818,14 @@ and (max-width: 1366px)
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .example {background: orange;}
+  
 /* 
+
+
   .DesignInnovation{
     font-size: 30px;
 }
+
 .top-text{
     display: flex;
     height: 238px;
@@ -1173,13 +1833,14 @@ and (max-width: 1366px)
     align-items: flex-start;
     justify-content: flex-end;
     margin-bottom: 20px;
+
    }    */
 
 
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   .example {background: pink;}
 }
 
@@ -1197,7 +1858,3 @@ and (max-width: 1366px)
 
 
 
-
-
-
- */ 

@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Rubin78.github.io/SiddqueAmin/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -63,7 +64,6 @@
     ]
   },
   "devDependencies": {
-    
     "react-social-icons": "^4.1.0"
   }
 }

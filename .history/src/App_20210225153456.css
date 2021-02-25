@@ -58,7 +58,7 @@ height: auto;
 #container2{
 
   
-  width: auto;
+  width: calc(100vw -12px);
 
   overflow-x: hidden;
   overflow-y: auto;
@@ -366,7 +366,7 @@ align-items: center; */
 .container6{
 
   height: 105vh;
-  width: auto;
+  width: calc(100vw -12px);
 
   overflow-x: hidden;
 

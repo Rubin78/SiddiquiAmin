@@ -7,15 +7,32 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText,
   Card,
-  
- 
+  Button,
+  CardImg,
+  CardTitle,
+  CardText,
+  CardDeck,
+  CardSubtitle,
+  CardBody,
 } from "reactstrap";
 import Particles from "react-particles-js";
 import { AnimationWrapper } from "react-hover-animation";
 import {
+  Container,
   Row,
   Col,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
 } from "reactstrap";
 import blue from "./assests/blue.jpg";
 import Modelling1 from "./assests/Modelling1.png";
@@ -42,6 +59,8 @@ import hcl from "./assests/hcl.png";
 import tosee2 from "./assests/tosee2.webp";
 import port3 from "./assests/port3.jpg";
 
+import freepic from "./assests/freepic.jpg";
+import { Hidden, Icon } from "@material-ui/core";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -244,6 +263,7 @@ const App = (props) => {
         </Col>
       </div>
 
+
       {/* <========= ABOUT ME START===================> */}
 
       <div id="container2" style={{ backgroundImage: `url(${tosee2})` }}>
@@ -271,7 +291,7 @@ const App = (props) => {
                     className="photoheight"
                     classID="container2insider"
                   >
-                    <img src={amin4} className="Photosize" alt="amin" />
+                    <img src={amin4} className="Photosize" />
                   </Col>
                 </AnimationWrapper>
               </Col>
@@ -350,6 +370,7 @@ const App = (props) => {
                 It covers modules like Mill, Turn, MillTurn and WireEDM.
               </div>
             </div>
+
           </Col>
         </Row>
       </div>
@@ -457,7 +478,7 @@ const App = (props) => {
                 height: 120,
               }}
             >
-              <img src={hcl} style={{ backgroundColor: blue }} alt="amin" />
+              <img src={hcl} style={{ backgroundColor: blue }} />
             </div>
           </Col>
         </Row>
@@ -599,6 +620,7 @@ const App = (props) => {
               }}
             >
               <div style={{ textAlign: "center", display: "flex" }}>
+          
                 <AnimationWrapper>
                   <SocialIcon url="https://www.facebook.com/amin.siddique.92" />
                 </AnimationWrapper>

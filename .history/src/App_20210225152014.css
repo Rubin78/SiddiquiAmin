@@ -6,8 +6,9 @@
 position: relative;
    background-size: cover;
     background-repeat: "no-repeat";
-    
-    
+    width: auto;
+    overflow-x: hidden;
+overflow-y:auto ;
   
 }
 
@@ -58,7 +59,7 @@ height: auto;
 #container2{
 
   
-  width: auto;
+  width: calc(100vw -12px);
 
   overflow-x: hidden;
   overflow-y: auto;
@@ -236,9 +237,8 @@ color: white;
 .section3{
 
   height: 100vh;
-  width: auto;
-  overflow-x: hidden;
-  overflow-y: auto;
+    width: calc(100vw -12px);
+    overflow-x: hidden;
 
 /*  
   position: absolute;
@@ -254,9 +254,8 @@ background-color: black;
 
 
   height: 100vh;
-  width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
-    overflow-y: auto;
     position: relative;
 background-color: black;
 
@@ -272,9 +271,8 @@ background-color: black;
 
 
   height: 120vh;
-    width:auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
-    overflow-y: auto;
     position: relative;
 background-color: black;
 color: white;
@@ -294,7 +292,7 @@ color: white;
 
 
   height: 35vh;
-    width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
     position: relative;
 background-color: black;
@@ -320,7 +318,8 @@ background-color: black;
 .container4{
 
   height: 50vh;
-width: auto;
+  width: calc(100vw -12px);
+
   overflow-x: hidden;
   overflow-y: auto;
 
@@ -336,7 +335,7 @@ background-color: black;
 .container5{
 
   height: 99.95vh;
-  width: auto;
+  width: calc(100vw -12px);
 
   overflow-x: hidden;
 overflow-y: auto;
@@ -366,7 +365,7 @@ align-items: center; */
 .container6{
 
   height: 105vh;
-  width: auto;
+  width: calc(100vw -12px);
 
   overflow-x: hidden;
 
@@ -1319,7 +1318,7 @@ img.carouselimage {
 
 .section5 {
     height: unset;
-    width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
     position: relative;
     background-color: black;
@@ -1570,7 +1569,7 @@ and (max-device-width : 1024px)
 
      .section3 {
     height: unset;
-    width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
     position: relative;
     background-color: black;
@@ -1583,7 +1582,7 @@ and (max-device-width : 1024px)
 }
 .section5 {
     height: unset;
-    width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
     position: relative;
     background-color: black;
@@ -1732,7 +1731,7 @@ and (max-device-width :1314px)
 
   .section5 {
     height: unset;
-    width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
     position: relative;
     background-color: black;

@@ -6,8 +6,8 @@
 position: relative;
    background-size: cover;
     background-repeat: "no-repeat";
-    
-    
+    width: 100%;
+
   
 }
 
@@ -40,7 +40,7 @@ height: auto;
   background-size: cover;
   background-repeat: 'no-repeat';
   height: 100vh;
-  /* width: calc(100vw -12px);  */
+  width: calc(100vw -12px); 
   overflow-x: hidden;
   overflow-y: auto;
   position: relative;
@@ -58,11 +58,11 @@ height: auto;
 #container2{
 
   
-  width: auto;
+  /* width: calc(100vw -12px);
 
   overflow-x: hidden;
   overflow-y: auto;
-  
+   */
 position: absolute;
   background-position: center;
   background-size: cover;
@@ -236,9 +236,8 @@ color: white;
 .section3{
 
   height: 100vh;
-  width: auto;
-  overflow-x: hidden;
-  overflow-y: auto;
+    width: calc(100vw -12px);
+    overflow-x: hidden;
 
 /*  
   position: absolute;
@@ -254,9 +253,8 @@ background-color: black;
 
 
   height: 100vh;
-  width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
-    overflow-y: auto;
     position: relative;
 background-color: black;
 
@@ -264,7 +262,7 @@ background-color: black;
 }
 .space{
 
-  height: unset;
+  height: 20vh;
   background-color: black;
 }
 
@@ -272,9 +270,8 @@ background-color: black;
 
 
   height: 120vh;
-    width:auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
-    overflow-y: auto;
     position: relative;
 background-color: black;
 color: white;
@@ -294,7 +291,7 @@ color: white;
 
 
   height: 35vh;
-    width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
     position: relative;
 background-color: black;
@@ -320,7 +317,8 @@ background-color: black;
 .container4{
 
   height: 50vh;
-width: auto;
+  width: calc(100vw -12px);
+
   overflow-x: hidden;
   overflow-y: auto;
 
@@ -336,7 +334,7 @@ background-color: black;
 .container5{
 
   height: 99.95vh;
-  width: auto;
+  width: calc(100vw -12px);
 
   overflow-x: hidden;
 overflow-y: auto;
@@ -366,10 +364,9 @@ align-items: center; */
 .container6{
 
   height: 105vh;
-  width: auto;
+  width: calc(100vw -12px);
 
   overflow-x: hidden;
-
 
   background-position: center;
   background-size: cover;
@@ -473,6 +470,9 @@ align-items: center;
 height: 100vh;
 background-color: blue;
 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+      "homepage": "https://Rubin78.github.io/SiddiquiAmin/",
 
 }
 
@@ -968,20 +968,6 @@ color: white;
 } 
 
 
-@media only screen   
-and (min-device-width : 50px)   
-and (max-device-width : 360px)  
-
-{
-
-
-  .DesignInnovation {
-    font-size: 22px;
-}
-
-
-}
-
 /* Extra small devices (phones, 400px and down) */
 @media only screen and (max-width: 550px) {
   /* .example {background: red;} */
@@ -1007,14 +993,14 @@ and (max-device-width : 360px)
 }
 
   .DesignInnovation{
-      font-size: 30px;
+      font-size: 31px;
   }
 
   div#container2 {
     padding: 15px;
 }
 .emptytwo{
-  padding:unset;
+  padding: 20px;
   background-color: black;
 }
 .container2column{
@@ -1310,16 +1296,13 @@ img.carouselimage {
     height: 75vh;
     position: relative;
     background-color: black;
-        overflow-x: hidden;
-        overflow-y: scroll;
-
 }
 
 
 
 .section5 {
     height: unset;
-    width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
     position: relative;
     background-color: black;
@@ -1570,7 +1553,7 @@ and (max-device-width : 1024px)
 
      .section3 {
     height: unset;
-    width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
     position: relative;
     background-color: black;
@@ -1583,15 +1566,12 @@ and (max-device-width : 1024px)
 }
 .section5 {
     height: unset;
-    width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
     position: relative;
     background-color: black;
     color: white;
-
-
 }
-
 
 img.carouselimage {
     border-radius: 15px;
@@ -1732,7 +1712,7 @@ and (max-device-width :1314px)
 
   .section5 {
     height: unset;
-    width: auto;
+    width: calc(100vw -12px);
     overflow-x: hidden;
     position: relative;
     background-color: black;
@@ -1868,475 +1848,6 @@ and (max-width: 1366px)
 
 
 
-/* ===============================================================new css===========================media queries======================> */
-
-
-
-
-
-/* Extra small devices (phones, 400px and down) */
-@media screen and (min-width: 550px) {
-  .example {background: red;}
-
-  .linkcolor.mob-sizefont{
-      font-size: 11px;
-  }
-}
-
-
-/* Extra small devices (phones, 400px and down) */
-@media only screen and (max-width: 550px) {
-  /* .example {background: red;} */
-
-  .containerBody2{
-      height: unset;
-      
-
-  }
-
-  .Container2frontend{
-
-  height: unset;
-  padding: 20px;
-}
-
-
-  .DesignInnovation{
-      font-size: 31px;
-  }
-
-  .aboutmeheadertextheight{
-      height: 50px;
-      font-size: 16px;
-      
-  }
-
-  h1.Aboutme.aos-init.aos-animate{
-      font-size: 30px;
-
-  }
-  
-  .photoheight{
-      height: 370px;
-    
-  }
-  .Photosize{
-      height: 100%;
-
-  }
-  .container2insideitem{
-      height: 48px;
-  }
-  .mydetailsstyle{
-      line-height: 1.45;
-      font-size: 14px;
-  }
-  .frontendfont{
-      height: 65px;
-      font-size: 28px;
-  }
-  .techicalskills{
-      height: 60px;
-
-  }
-  .cardinside{
-      height: 50px;
-  }
-  
-
-  div#Top-cards {
-      height: 210px;
-      margin:21px;
-  }
-  .Aboutme{
-      font-size: 16px;
-  }
-  .emptyspace{
-      height: 0;
-  }
-  .hostingtextheader{
-      height: 60px;
-  }
-.container4{
-  height: 100vh;
-}
-
-.experiencetextheight{
-
-
-  height: 60px;
-}
-
-.expcard{
-  height: 560px;
-}
-
-.container5{
-  height: unset;
-}
-.expimg{
-height: 125px;
-background-size: 250px 160px;
-}
-.Aboutme1{
-  font-size: 1.2em;
-}
-
-.textofdowncardsnoop{
-  height: 51px;
-}
-
-.textofdowncardsnoopinside{
-
-  font-size: 1em;
-  
-
-}
-
-
-.cardproject.card {
-
-
-  height: 300px;
-  /* margin:21px; */
-}
-
-
-.projectcardhoverheight{
-  height: 60%;
-}
-
-button.btn.btn-success {
-
-  font-size: 12.5px;
-}
-
-.Freesapceofconatiner7{
-
-
-  height: 90px;
-}
-
-
-a.linkcolor{
-  font-size: 11px;
-}
-
-
-.linkcolor.mob-sizefont{
-  font-size: 10px;
- 
-}
-
-h5.Aboutme {
-  font-size: 11px;
-}
-
-
-
-}
-
-
-
-@media only screen   
-and (min-device-width : 1081px)   
-and (max-device-width : 1347px)  
-
-{
-
-  .linkcolor.mob-sizefont {
-    font-size: 8px;
-  }
-
-}
-
-
-
-@media only screen   
-and (min-device-width : 576px)   
-and (max-device-width : 767px)  
-
-{
-  .mydetailsstyle{
-    line-height: 1.2;
-
-  }
-
-
-  .hoverwidthcards{
-    padding: 15px;
-  }
-
-}
-
-  @media only screen   
-  and (min-device-width : 551px)   
-  and (max-device-width : 800px)  
-  
-  {
-    .top-text {
-      display: flex;
-      height: 501px;
-      position: absolute;
-      left: 110px;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-end;
-      margin-bottom: 20px;
-  }
-
-
-  .Photosize{
-    height: 76%;
-
-  }
-
-
-
-
-.aboutmeheadertextheight{
-
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  
-  }
-
-
-  h1.Aboutme.aos-init.aos-animate {
-
-    font-size: 24x;
-  }
-  
-  
-
-}
-
-
-
-
-
-@media only screen   
-and (min-device-width : 800px)   
-and (max-device-width : 1500px)  
-
-{
-
-  .DesignInnovation.aos-init.aos-animate {
-    font-size: 34px;
-}
-
-}
-
-@media only screen   
-and (min-device-width : 1025px)   
-and (max-device-width : 1868px)  
-
-{
-
-  div#Top-cards {
-    height: 210px;
-}
-}
-@media only screen   
-and (min-device-width : 1022px)   
-and (max-device-width : 1119px)  
-
-{
-
-  .linkcolor.mob-sizefont {
-    font-size: 6px;
-  }
-
-
-
-}
-
-
-
-@media only screen   
-and (min-device-width : 195px)   
-and (max-device-width : 345px)  
- {
-
-  .linkcolor.mob-sizefont {
-    font-size: 4px;
-  }
-
-
- }
-
-@media only screen   
-and (min-device-width : 576px)   
-and (max-device-width : 656px)  
- {
-
-
-
-  .linkcolor.mob-sizefont {
-    font-size: 8.5px;
-  }
-
- }
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* For 1024 Resolution */  
-@media only screen   
-and (min-device-width : 768px)   
-and (max-device-width : 1024px)  
- {
-  /* .example {background: green;} */
-  body{
-
-      background-color: transparent;
-  }
-
-  .DesignInnovation{
-      font-size: 35px;
-  }
-  
-  .top-text{
-      display: flex;
-      height: 480px;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-end;
-      margin-bottom: 20px;
- 
-     }   
-
-     h1.Aboutme.aos-init.aos-animate{
-         font-size: 2em;
-     }
-     .aboutmeheadertextheight{
-         height: 80px;
-     }
-/* 
-     .container2column{
-         height: 60vh;
-     } */
-     .Photosize{
-         height: 74%;
-     }
-
-     .mob-sizefont{
-         font-size: 14px;
-     }
-     .container2insideitem{
-         height: 40px;
-     }
-     h1.Aboutme.aos-init.aos-animate{
-         font-size: 1.5em;
-     }
-     .techicalskills{
-         height: 60px;
-     }    
-
-     .Freesapceofconatiner7{
-         height: 80px;
-
-     }
-     .frontendfont{
-         height: 60px;
-     }
-     h1.frontendfont.aos-init.aos-animate {
-      font-size: 28px;
-     }
-     h1.Aboutme{
-         font-size: 30px;
-     }
-     .mob-logo{
-         height: 50px;
-     }
-     div#Top-cards {
-         height: 210px;
-         margin: 30px;
-     }
-
-     .cardproject.card {
-  height: 350px;
-  /* margin: 30px; */
-}
-.projectcardhoverheight{
-  height: 69%;
-}
-
-     .mob-card{
-      height: 180px;
-      margin: 20px;
-     }
-     .emptyspace{
-         height: 0;
-     }
-     .hostingtextheader{
-         height: 60px;
-     }
-
-     .experiencetextheight{
-         height: 80px;
-     }
-     .expcard{
-         height: 600px;
-     }
-
-     .container5{
-         height: 74.95vh;
-     }
-
-
-     a.linkcolor {
-      font-size: 15px;
-  }
-
-
-  h5.Aboutme {
-      font-size: 15px;
-  }
-
-
-
-  .mydetailsstyle{
-    line-height: 1.4;
-    font-size: 13px;
-    
-}
-
-
-.linkcolor.mob-sizefont {
-  font-size: 10px;
-}
-
-}
-
-
-
-
-
-
-
-
-
-@media only screen and  (min-width: 768px) {
-  
-
-  a.linkcolor {
-      font-size: 16px;
-  }
-
-  
-  h5.Aboutme {
-      font-size: 16px;
-  }
-
-  .navbar-expand-md .navbar-collapse {
-    display: flex!important;
-    /* flex-basis: auto; */
-    flex-wrap: wrap;
-}
-  
-}
 
 
 
